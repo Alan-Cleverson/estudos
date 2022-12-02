@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #34EDE7;
+    --cor2: #36BDF7;
+    --cor3: #3C78E0;
+    --cor4: #363DF7;
+    --cor5: #6D32F0; 
+}
+
+* {
+    width: 98vh;
+
+
+    
+
+}
+
+header {
+   color: black;
+    background-image:linear-gradient(to top, var(--cor2),var(--cor4));
+   font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 35px;
+}
+
+main {
+    background-color: var(--cor2);
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: black;
+    margin: 10px 0px 10px 0px;
+    padding: 1px;
+
+}
