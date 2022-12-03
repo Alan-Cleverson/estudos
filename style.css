@@ -110,6 +110,11 @@ a#sitecurso:hover {
 
 }
 
+Picture {
+    min-width: 100px;
+    max-width: 400px;
+}
+
 p {
         padding: 20px;
         padding-top: 20px;
