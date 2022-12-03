@@ -9,11 +9,16 @@
 }
 
 * {
-    width: 98vh;
+    margin: 0px;
+    padding: 0px;
 
+}
 
-    
-
+body {
+    min-width: 280px;
+    max-width: 100%;
+    display: block;
+    background-color: rgba(223, 211, 106, 0.808);
 }
 
 header {
@@ -24,16 +29,84 @@ header {
     padding: 35px;
 }
 
-main {
-    background-color: var(--cor2);
-    font-size: 1.2em;
-    margin: 5px;
+header > h1 {
+    text-align: center;
 }
+
+h2 {
+    text-align: center;
+}
+
+main {
+    
+    background-color: var(--cor2);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 40px;
+}
+
+div.site {
+    display: block;
+    width: 400px;
+    height: 400px;
+float: left;
+
+
+}
+
+div.imag {
+    
+    width: 400px;
+    height: 400px;
+    background-color: #6D32F0;
+    
+}
+
+nav {
+    padding: 25px;
+}
+
+a {
+    background-color: white;
+    text-decoration: none;
+    border-style: inset black;
+    border-radius: 25% ;
+    box-sizing: 1px;
+    box-shadow: 3px 2px 5px black;
+    padding: 20px;
+    margin: 20px;
+}
+
+a:hover {
+    background-color: #6D32F0;
+    color: white;
+    transition-duration: .6s;
+}
+
+a#sitecurso {
+    background-color: white;
+    text-decoration: none;
+    border-style: inset black;
+    border-top-left-radius: 25% ;
+    border-bottom-right-radius: 25%;
+    box-sizing: 1px;
+    box-shadow: 3px 2px 5px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+        padding: 20px;
+    }
 
 footer {
     background-color: var(--cor5);
     color: black;
-    margin: 10px 0px 10px 0px;
-    padding: 1px;
+    text-align: center;
+    text-size-adjust: 1.2em;
+    border:10px;
+    margin: 0px;
+    padding: 0px;
 
 }
