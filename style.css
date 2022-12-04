@@ -64,8 +64,8 @@ div.site {
 }
 
 div.imag {
-    
-    width: 400px;
+    display: inline-blok;
+    width: 50%;
     height: 400px;
     background-color: #6D32F0;
     
@@ -110,7 +110,7 @@ a#sitecurso:hover {
 
 }
 
-Picture {
+Div > Picture {
     min-width: 100px;
     max-width: 400px;
 }
@@ -124,14 +124,14 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    text-size-adjust: 1.2em;
+    text-size-adjust: 0.8em;
     border:1px solid black;
     margin: 0px;
     padding: 0px;
 
 }
 
-footer >  {
+footer > p {
     text-align: center;
     text-size-adjust: 1.2em;
     border:1px solid black;
