@@ -51,7 +51,7 @@ main {
     border-bottom-right-radius: 5px;
     box-shadow: 7px 5px 9px black;
     padding: 40px;
-    margin: 0px 50px;
+    margin: 0px 10px;
 }
 
 div.site {
@@ -126,7 +126,7 @@ footer {
 
 }
 
-footer >  {
+footer > p {
     text-align: center;
     text-size-adjust: 1.2em;
     border:1px solid black;
