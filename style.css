@@ -54,21 +54,13 @@ main {
     margin: 0px 10px;
 }
 
-div.site {
+div.bloco {
     display: inline-block;
     width: 400px;
     height: 400px;
 
 
 
-}
-
-div.imag {
-    display: inline-blok;
-    width: 50%;
-    height: 400px;
-    background-color: #6D32F0;
-    
 }
 
 nav {
