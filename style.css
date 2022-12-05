@@ -41,6 +41,10 @@ h2 {
     text-align: center;
 }
 
+p {
+    Padding-top: 10px;
+}
+
 main {
     
     background-color: var(--cor2);
@@ -58,21 +62,13 @@ main {
     margin: 0px 10px;
 }
 
-div.site {
+div.bloco {
     display: inline-block;
     width: 400px;
     height: 400px;
 
 
 
-}
-
-div.imag {
-    
-    width: 400px;
-    height: 400px;
-    background-color: #6D32F0;
-    
 }
 
 nav {
@@ -114,7 +110,7 @@ a#sitecurso:hover {
 
 }
 
-Picture {
+Div > Picture {
     min-width: 100px;
     max-width: 400px;
 }
@@ -128,7 +124,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    text-size-adjust: 1.2em;
+    text-size-adjust: 0.8em;
     border:1px solid black;
     margin: 0px;
     padding: 0px;
