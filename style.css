@@ -54,11 +54,7 @@ main {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 7px 5px 9px black;
-<<<<<<< HEAD
-    padding: 40px;
-=======
     padding: 10px;
->>>>>>> 01f53baa65c1b1dde3532f4b3799d049fbe16863
     margin: 0px 10px;
 }
 
@@ -138,4 +134,8 @@ footer > p {
     margin: -0.5px;
     padding: 0px;
 
+}
+
+footer > p:hover {
+    
 }
