@@ -50,7 +50,11 @@ main {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 7px 5px 9px black;
+<<<<<<< HEAD
     padding: 40px;
+=======
+    padding: 10px;
+>>>>>>> 01f53baa65c1b1dde3532f4b3799d049fbe16863
     margin: 0px 10px;
 }
 
@@ -110,14 +114,19 @@ a#sitecurso:hover {
 
 }
 
+Picture {
+    min-width: 100px;
+    max-width: 400px;
+}
+
 p {
         padding: 20px;
         padding-top: 20px;
     }
 
 footer {
-    background-color: var(--cor4);
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
     text-size-adjust: 1.2em;
     border:1px solid black;
