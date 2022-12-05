@@ -59,10 +59,10 @@ main {
 }
 
 div.bloco {
-    display: inline-block;
+    display: block;
     width: 400px;
     height: 400px;
-
+    background-position: center center ;
 
 
 }
@@ -106,9 +106,25 @@ a#sitecurso:hover {
 
 }
 
-Div > Picture {
-    min-width: 100px;
-    max-width: 400px;
+picture {
+    background-position: top center;
+    margin: -11px;
+    padding-right: 37px;
+    padding-top: 50px;
+    margin-left: -6px;
+    padding-bottom: 213px;
+    position: relative;
+
+}
+
+picture > img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    width: 1050%;
+    height: 90%;
+    
 }
 
 p {
