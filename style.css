@@ -41,6 +41,10 @@ h2 {
     text-align: center;
 }
 
+p {
+    Padding-top: 10px;
+}
+
 main {
     
     background-color: var(--cor2);
