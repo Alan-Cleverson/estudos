@@ -65,10 +65,10 @@ main {
 
 div.bloco {
     display: block;
-    width: 400px;
-    height: 250px;
+    min-width: 300px;
+    min-height: 250px;
     background-position: center center ;
-    padding-bottom: ;
+    padding-bottom: 30px;
 
 
 }
@@ -115,7 +115,7 @@ a#sitecurso:hover {
 picture {
     background-position: top center;
     margin: -11px;
-    padding-right: 37px;
+    padding-right: 33px;
     padding-top: 50px;
     margin-left: -6px;
     padding-bottom: 213px;
