@@ -42,7 +42,12 @@ h2 {
 }
 
 p {
-    Padding-top: 10px;
+    line-height: 2em;
+}
+
+p#butao {
+    display: inline-block;
+    line-height: 2.5em;
 }
 
 main {
@@ -61,8 +66,9 @@ main {
 div.bloco {
     display: block;
     width: 400px;
-    height: 400px;
+    height: 250px;
     background-position: center center ;
+    padding-bottom: ;
 
 
 }
@@ -130,6 +136,7 @@ picture > img {
 p {
         padding: 20px;
         padding-top: 20px;
+        line-height: 1.3em;
     }
 
 footer {
