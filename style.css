@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 :root {
-    --cor1: #34EDE7;
-    --cor2: #36BDF7;
-    --cor3: #3C78E0;
+    --cor1: #34ede7c0;
+    --cor2: #36bdf7b7;
+    --cor3: #3c78e0b7;
     --cor4: #363DF7;
     --cor5: #6D32F0; 
 }
@@ -99,14 +99,14 @@ a#sitecurso {
     text-decoration: none;
     border-top-left-radius: 25% ;
     border-bottom-right-radius: 25%;
-    border: 10px groove var(--cor3);
-    box-shadow: 3px 2px 5px black;
+    border: 10px groove var(--cor2);
+    box-shadow: 1px 1px 6px black;
     padding: 10px;
     margin: 10px;
 }
 
 a#sitecurso:hover {
-    background-color: #6D32F0;
+    background-color: var(--cor5);
     color: white;
 
 }
