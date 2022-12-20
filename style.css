@@ -129,8 +129,9 @@ picture > img {
     left: 5%;
     right: 5%;
     min-width: 80px;
-    max-width: 288px;
+    max-width: 388px;
     height: 272px;
+    displey: flex;
     
 }
 
