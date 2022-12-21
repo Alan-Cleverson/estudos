@@ -87,7 +87,6 @@ main {
     box-shadow: 7px 5px 9px black;
     padding: 10px;
     margin: 0px 20px 0px 20px;
-    
 }
 
 div.bloco {
@@ -160,6 +159,7 @@ picture > img {
     min-width: 80px;
     max-width: 288px;
     height: 272px;
+   
     
 }
 
