@@ -181,7 +181,7 @@ footer {
 }
 
 footer > p {
-    Font-family: Arial;
+    font-family: Arial;
     text-align: center;
     text-size-adjust: 1.2em;
     border:1px solid black;
@@ -196,5 +196,7 @@ a.linkedin {
 }
 
 a.linkedin:hover {
+    text-decoration: none;
     background-color: white;
+    border-radius: 5px;
 }
