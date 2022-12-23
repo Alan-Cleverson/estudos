@@ -181,6 +181,7 @@ footer {
 }
 
 footer > p {
+    Font-family: Arial;
     text-align: center;
     text-size-adjust: 1.2em;
     border:1px solid black;
