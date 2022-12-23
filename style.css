@@ -113,14 +113,14 @@ a.curs {
     border-radius: 25% ;
     box-sizing: 1px;
     box-shadow: 3px 2px 5px black;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
 }
 
 a.curs:hover {
     background-color: #6D32F0;
     color: white;
-    transition-duration: .6s;
+    transition-duration: .4s;
 }
 
 a#sitecurso {
@@ -128,10 +128,10 @@ a#sitecurso {
     text-decoration: none;
     border-top-left-radius: 25% ;
     border-bottom-right-radius: 25%;
-    border: 10px groove var(--cor2);
+    border: 8px groove var(--cor2);
     box-shadow: 1px 1px 6px black;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
 a#sitecurso:hover {
@@ -164,7 +164,7 @@ picture > img {
 }
 
 p {
-        padding: 20px;
+        padding:15px;
         padding-top: 20px;
         line-height: 1.3em;
     }
