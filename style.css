@@ -183,7 +183,7 @@ footer {
 footer > p {
     font-family: Arial;
     text-align: center;
-    text-size-adjust: 1.2em;
+    text-size-adjust: 1em;
     border:1px solid black;
     margin: -0.5px;
     padding: 0px;
