@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+@media screen and {min-width: none;max-width: 600px;}
+
+* {
+    border-radius: 10px;
+    margin: auto;
+}
+
+body {
+    background: rgba(173, 216, 230, 0.333);
+    text-align: center;
+}
+
+div {
+    border: 1px solid black;
+    margin: 20px;
+    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    height: 50px;
+    width: 400px;
+    background: rgba(109, 163, 181, 0.492);
+    font-size: 2em;
+    border: 1px solid black;
+    margin: 20px 0px 20px 13vw;
+    
+}
+
+.butao {
+    height: 100px;
+}
+
+div#relogio {
+    height: 100px;
+    font-size: 5em;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+}
+
+@media screen and {
+    min-width: 601px; max-width: 1200;
+}
