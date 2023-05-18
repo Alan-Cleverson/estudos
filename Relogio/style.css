@@ -1,21 +1,27 @@
 @charset "UTF-8";
 
 
-@media screen and {min-width: none;max-width: 600px;}
+
 
 * {
     border-radius: 10px;
-    margin: auto;
+    /* margin: auto; */
 }
 
 body {
+    min-height: 90vh;
     background: rgba(173, 216, 230, 0.333);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 div {
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    margin: 20px;
+    
     
 }
 
@@ -28,9 +34,10 @@ p {
     width: 400px;
     background: rgba(109, 163, 181, 0.492);
     font-size: 2em;
+    text-align: center;
     border: 1px solid black;
     margin: 20px 0px 20px 13vw;
-    
+    padding: 10px;
 }
 
 .butao {
@@ -47,6 +54,23 @@ button {
     height: 40px;
 }
 
-@media screen and {
-    min-width: 601px; max-width: 1200;
+@media screen and (min-width: 768px) {
+    
+    body {
+        min-height: 90vh;
+        background: rgba(173, 216, 230, 0.333);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        margin: 30px;
+    }
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 18vw;
+        border: 1px solid black;
 }
